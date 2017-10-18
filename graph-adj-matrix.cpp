@@ -20,7 +20,7 @@ Graph::Graph(int n)
 {
 	vector <vector <int>> grid(n, vector <int>(n, -1));
 	graph = grid;
-	int n = n;
+	n = n;
 }
 
 void Graph::addEdge(int nodeA, int nodeB)
